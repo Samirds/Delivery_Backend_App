@@ -67,7 +67,7 @@ class RestaurantWIdget extends StatelessWidget {
                   ],
                 ),),
                 Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 120.w),
+                    padding: EdgeInsets.symmetric(horizontal: 12.w),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -88,7 +88,7 @@ class RestaurantWIdget extends StatelessWidget {
                           itemSize: 15.h,
                         ),
                         SizedBox(width: 10.w,),
-                        ReusableText(text: "+ $rating + reviews and ratings", style: appStyle(12, kDark, FontWeight.w500))
+                        ReusableText(text: "+ $rating  reviews and ratings", style: appStyle(9, kDark, FontWeight.w500))
 
                       ],
                     )
